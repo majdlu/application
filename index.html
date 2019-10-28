@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Majd's application</title>
+</head>
+<body>
+
+<h1 style="color:Dodgerblue;">About me</h1>
+                                                            <p>Who am i?.</p>
+<ul>
+    <li>My name majd loulou</li>
+    <li>I am 21 years old from Nazareth,Israel</li>
+    
+<h2 style="color:#ff0000;">The question is why did i apply for this program?</h2>
+<p>Since i graduated from highschool i always woundered what would i become?!. 
+would a i be an engineer?,doctor?,lawyer? or even a working guy ? (line carpenter,plummer...etc).
+i felt lost,confused and sometimes even hopeless... .
+one day i wass sitting with a friend drinking a coffee in the weekend... we were actually good friend (and still) 
+at the time my friend was doing quite well for himself,a nice car for his age, elegant clothing, a luxury watch, so i knew his occupation was digital marketing so i asked him if it is a worthwhile investment to make to learn the subject( if its worth the money and time)
+so he reccomended it to me and i started my journey to the digital marketing world ! so i spent almost a year of my time and a respectable amount of money to learn the subject, and suddenly... i found the right subject for me ! it was intresting sometimes i felt that it was actually fun to do ! and for some reason i was a natural at it (lucky me).
+o finished the program succefully and started to do the real thing ! boy it was fun, until... i found out there is more to it... it wasnt just to use a Content management system and that's it... when i saw what could be made with javascript coding was just astonishing !
+i started to get curious about javascript... i didnt have any previous expirience with coding what so ever... and still not expirienced, but, i just discovered a new world, hopefully you guys will help me conquer it, because where is will there is a path.
+</p>
+    
+</ul>
+
+Some navigation links
+<ul>
+
+<li>the following links are my personal accounts</li>
+<br></br>
+<li><a href="https://www.codewars.com/users/majdlu">Codewars account</a></li>
+<br></br>
+<li><a href="https://github.com/majdlu?tab=repositories">github repo<a/></li>
+<br></br>
+<li><a href="https://www.freecodecamp.org/majdlu">freecodecamp account</a></li>
+<br></br>
+
+</ul>
+
+<p>Calculator</p>
+
+<script>
+
+
+
+
+
+	function calcNumbers(result){
+		form.displayResult.value=form.displayResult.value+result;
+		
+	}
+	</script>
+	<div class="container">
+		<form name="form">
+		<div class="display">
+			<input type="text" placeholder="0" name="displayResult" />
+		</div>
+			<div class="buttons">
+			  <div class="row">
+				<input type="button" name="b7" value="7" onClick="calcNumbers(b7.value)">
+				  <input type="button" name="b8" value="8" onClick="calcNumbers(b8.value)">
+				  <input type="button" name="b9" value="9" onClick="calcNumbers(b9.value)">
+				  <input type="button" name="addb" value="+" onClick="calcNumbers(addb.value)">
+				</div>
+				
+				<div class="row">
+				<input type="button" name="b4" value="4" onClick="calcNumbers(b4.value)">
+				  <input type="button" name="b5" value="5" onClick="calcNumbers(b5.value)">
+				  <input type="button" name="b6" value="6" onClick="calcNumbers(b6.value)">
+				  <input type="button" name="subb" value="-" onClick="calcNumbers(subb.value)">
+				</div>
+				
+				<div class="row">
+				<input type="button" name="b1" value="1" onClick="calcNumbers(b1.value)">
+				  <input type="button" name="b2" value="2" onClick="calcNumbers(b2.value)">
+				  <input type="button" name="b3" value="3" onClick="calcNumbers(b3.value)">
+				  <input type="button" name="mulb" value="*" onClick="calcNumbers(mulb.value)">
+				</div>
+				
+				<div class="row">
+				<input type="button" name="b0" value="0" onClick="calcNumbers(b0.value)">
+				  <input type="button" name="potb" value="." onClick="calcNumbers(potb.value)">
+				  <input type="button" name="divb" value="/" onClick="calcNumbers(divb.value)">
+				  <input type="button" class="red" value="=" onClick="displayResult.value=eval(displayResult.value)">
+				</div>
+			</div>
+		
+		</form>
+	</div>
+
+</script>
+
+</body>
+</html>
